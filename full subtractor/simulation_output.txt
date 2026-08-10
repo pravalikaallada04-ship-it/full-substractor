@@ -1,0 +1,18 @@
+```text
+A B Bin | Difference Borrow
+---------------------------
+0 0  0  |     0        0
+0 0  1  |     1        1
+0 1  0  |     1        1
+0 1  1  |     0        1
+1 0  0  |     1        0
+1 0  1  |     0        0
+1 1  0  |     0        0
+1 1  1  |     1        1
+```
+
+### Result
+
+The simulation output matches the Full Subtractor truth table for all **8 input combinations**.
+
+Therefore, the Verilog implementation of the **Full Subtractor is verified successfully**.
